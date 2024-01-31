@@ -1,0 +1,175 @@
+body {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+/* Center the header text */
+.header {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+    border-radius: 10%;
+    margin: 20px 0;
+    margin-bottom: 1000px;
+
+}
+
+.intro {
+    background-color: rgb(153, 208, 245);
+    padding: 20px;
+    margin: 40px;
+    border-radius: 10%;
+    text-align: center;
+}
+/* Navigation styling */
+nav {
+    background-color: #9093ac;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 10px; /* Adjust the padding to your preference */
+    margin-bottom: 100px;
+}
+
+nav a {
+    color: white;
+    text-decoration: none;
+    padding: 10px 15px;
+    display: inline-block; /* Make anchor tags flex containers */
+}
+
+nav a:hover {
+    background-color: #cdfd3e;
+    color: #fff;
+    text-decoration: none; /* Remove underline on hover */
+}
+nav {
+    height: 40px;
+    width: 1400px;
+}
+/* Footer styling */
+footer {
+    background-color: #46ed43;
+    display: flex; /* Add this line to make the footer a flex container */
+    justify-content: center;
+    padding: 10px; /* Add padding for better spacing, adjust as needed */
+}
+
+footer a {
+    color: #333;
+    text-decoration: none;
+}
+
+footer a:hover {
+    text-decoration: none;
+    color: #FF6347;
+}
+
+section {
+    background-color: #A9A9A9;
+    padding: 20px;
+    text-align: center;
+
+}
+
+.container {
+    background-color: white;
+    padding: 20px;
+}
+
+/* Apply fonts to selected elements */
+h1, h2, h3 {
+    font-family: 'Chalkduster', fantasy;
+}
+
+a, p {
+    font-family: 'Courier', monospace;
+}
+
+/* Set font color and size */
+h1 {
+    color: #333;
+    font-size: 36px;
+}
+
+h2, h3 {
+    color: #555;
+    font-size: 24px;
+}
+
+hr {
+    border-color: #ddd;
+    border-width: 2px;
+}
+
+/* Image styling */
+img {
+    border: 2px solid #ddd;
+    border-radius: 15px;
+    max-width: 100%;
+}
+
+.header img {
+    margin: 20px 0;
+}
+
+/* Card styling */
+.card {
+    background-color: #000000;
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.2);
+    margin-bottom: 20px;
+    padding: 15px;
+}
+.campus {
+    background-color: #000000;
+    padding: 20px;
+    border-radius: 10%;
+}
+.computer{
+    background-color: rgb(0, 0, 0);
+    padding: 20px;
+    border-radius: 10%;
+}
+
+/* Three-column layout */
+.three-col {
+    display: flex; /* Change to flex */
+    justify-content: space-between;
+    gap: 20px;
+    text-decoration: none;
+    border-radius: 10%;
+    text-align: center;
+}
+
+
+.one-col {
+    width: 20%;
+    margin: 20px;
+}
+
+.one-col textarea {
+    width: 100%;
+    padding: 10px;
+    margin-bottom: 15px;
+    box-sizing: border-box;
+}
+
+/* List styling */
+ul, dl {
+    list-style: none;
+    padding: 0;
+}
+
+/* Additional styles */
+.section-with-background {
+    background-color: #d5ff96;
+    padding: 30px;
+}
+
+/* background*/
+body {
+    background-image: url("../images/background3.jpg");
+    background-image:-webkit-image-set();
+}
